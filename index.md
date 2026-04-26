@@ -52,7 +52,7 @@ servers.
   clinical lab records.
 - **Live Activity & Lock Screen widgets** for one-tap logging.
 - **Siri & Shortcuts** support.
-- **iCloud sync** across your iPhone, iPad, and Mac.
+- **iCloud sync** across your devices.
 
 ## Need something else?
 

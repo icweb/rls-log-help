@@ -20,7 +20,7 @@ a screen recording or a clear list of steps get answered fastest.
 When something's broken, including these details makes it dramatically faster
 for us to fix:
 
-- **Device** — iPhone 15 Pro, iPad Air, etc.
+- **Device** — e.g. iPhone 15 Pro.
 - **iOS version** — Settings → General → About → iOS Version.
 - **App version** — Settings → About inside the app.
 - **What you expected to happen.**

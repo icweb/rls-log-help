@@ -30,13 +30,6 @@ gaps gracefully. Quick Log on the Today tab is designed for one-tap entries
 when you're in a hurry.
 </details>
 
-<details markdown="1">
-<summary>Does it work on iPad and Mac?</summary>
-
-Yes. The app runs on iPhone, iPad, and Mac (Apple silicon, via Mac Catalyst),
-and your logs sync across all your devices through iCloud.
-</details>
-
 ## Data and privacy
 
 <details markdown="1">
