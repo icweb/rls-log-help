@@ -34,7 +34,10 @@ to back up anything you'd be sad to lose.
 
 We grant you a personal, non-transferable, non-exclusive license to use the app
 on Apple devices you own or control, in accordance with the App Store Terms of
-Service.
+Service and Apple's standard
+[Licensed Application End User License Agreement](https://www.apple.com/legal/internet-services/itunes/dev/stdeula/).
+Where these terms and the Apple standard EULA conflict, the Apple standard
+EULA controls.
 
 You agree not to:
 
@@ -42,6 +45,17 @@ You agree not to:
   rules or local law explicitly permit it.
 - Resell, redistribute, or sublicense the app.
 - Use the app to violate any law or anyone else's rights.
+
+This license is **automatically terminated** if you violate these terms. On
+termination, you must stop using the app and delete all copies you've
+installed.
+
+## Apple as a third-party beneficiary
+
+You and we acknowledge that Apple, and Apple's subsidiaries, are third-party
+beneficiaries of these terms, and that — upon your acceptance of these terms —
+Apple has the right (and will be deemed to have accepted the right) to enforce
+these terms against you as a third-party beneficiary.
 
 ## Accuracy
 
@@ -71,11 +85,31 @@ developer, or its contributors be liable for any indirect, incidental, special,
 consequential, or punitive damages, or any loss of data, profits, or revenues,
 arising out of your use of the app.
 
+## Termination
+
+We may terminate or suspend your access to the app at any time, for any
+reason, without notice — for example, if we pull the app from the App Store
+or need to block abuse. The disclaimers, limitations of liability, and any
+provisions intended by their nature to survive termination will continue to
+apply.
+
+## Governing law
+
+These terms are governed by the laws of the **Commonwealth of Pennsylvania,
+United States**, without regard to its conflict-of-laws principles. Any
+dispute arising out of or relating to these terms or the app will be resolved
+in the state or federal courts located in Allegheny County, Pennsylvania, and
+you consent to the personal jurisdiction of those courts.
+
+Nothing in this section overrides any non-waivable consumer-protection rights
+you have under the laws of your country of residence.
+
 ## Changes
 
-We may update these terms from time to time. If we make material changes, we'll
-update the **Effective date** at the top of this page. Continued use of the app
-after changes means you accept the updated terms.
+We may update these terms from time to time. If we make material changes,
+we'll update the **Effective date** at the top of this page. The previous
+versions remain in this site's git history. Continued use of the app after
+changes means you accept the updated terms.
 
 ## Contact
 
