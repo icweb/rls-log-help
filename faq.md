@@ -1,0 +1,204 @@
+---
+title: Frequently Asked Questions
+subtitle: Quick answers about features, data, and how the app works.
+description: Frequently asked questions about the RLS Log iOS app.
+---
+
+## Getting started
+
+<details>
+<summary>What does RLS Log actually do?</summary>
+
+It's a private tracker for restless legs syndrome. You log symptoms, meals,
+supplements, medications, and sleep — and the app surfaces patterns, triggers,
+and a personalized "tonight's risk" prediction based on your own history.
+</details>
+
+<details>
+<summary>How long until I get useful insights?</summary>
+
+The first 7–10 days mostly fill the baseline. After about two weeks of regular
+logging, the contribution heatmap and trend charts get meaningful. Risk
+predictions improve as your dataset grows.
+</details>
+
+<details>
+<summary>Do I need to log every day?</summary>
+
+No. The more consistent you are, the better the patterns — but the app handles
+gaps gracefully. Quick Log on the Today tab is designed for one-tap entries
+when you're in a hurry.
+</details>
+
+<details>
+<summary>Does it work on iPad and Mac?</summary>
+
+Yes. The app runs on iPhone, iPad, and Mac (Apple silicon, via Mac Catalyst),
+and your logs sync across all your devices through iCloud.
+</details>
+
+## Data and privacy
+
+<details>
+<summary>Where is my data stored?</summary>
+
+On your iPhone, and (if you have iCloud enabled) in your private CloudKit
+database for syncing across your devices. Nothing goes to our servers — we
+don't run any. See the [Privacy Policy]({{ '/privacy.html' | relative_url }}).
+</details>
+
+<details>
+<summary>Do you collect analytics or tracking?</summary>
+
+No. There are no analytics SDKs, no marketing trackers, no telemetry. The only
+data Apple may share with us is the standard, anonymized App Store crash
+reports, which contain stack traces — never your logs.
+</details>
+
+<details>
+<summary>Can I export my data?</summary>
+
+Yes. Settings → Data → Export gives you a JSON file with everything you've
+logged. Save it to Files, share it, or keep it as a backup.
+</details>
+
+<details>
+<summary>How do I delete my data?</summary>
+
+Deleting the app from your iPhone removes the local copy. To remove the iCloud
+copy, go to Settings → [Your name] → iCloud → Manage Account Storage → RLS Log
+→ Delete Data.
+</details>
+
+## Apple Health
+
+<details>
+<summary>What does the app read from Apple Health?</summary>
+
+Only what's relevant to RLS: sleep analysis, workouts, active energy, step
+count, resting heart rate, and (optionally) clinical lab records like
+ferritin and vitamin D. Each category is a separate permission you grant in
+Settings.
+</details>
+
+<details>
+<summary>What are clinical records and why does the app ask?</summary>
+
+Clinical records are lab results, medications, immunizations, and conditions
+that Apple Health imports from your healthcare provider. RLS Log can read
+**lab results only**, and only if you opt in — it's used to auto-populate
+goals like "ferritin above 75 ng/mL" so you don't have to type values
+manually.
+</details>
+
+<details>
+<summary>Can I turn off Apple Health access later?</summary>
+
+Yes. Settings → Privacy &amp; Security → Health → RLS Log lets you toggle each
+category individually or revoke access entirely.
+</details>
+
+<details>
+<summary>Does the app write anything back to Apple Health?</summary>
+
+No. RLS Log is read-only with respect to Apple Health.
+</details>
+
+## Goals and labs
+
+<details>
+<summary>What are Goals?</summary>
+
+Goals are targets you set for yourself — for example, "ferritin above 75
+ng/mL" or "walk 30 minutes a day." The app tracks progress and can remind you
+to retest a lab on a schedule.
+</details>
+
+<details>
+<summary>Why does iron / ferritin matter for RLS?</summary>
+
+Iron deficiency is one of the most common physiological contributors to
+restless legs symptoms. Many practitioners aim for ferritin above 75–100 ng/mL
+in people with RLS. The app makes it easy to track that target alongside your
+symptom log. (This is informational, not medical advice — talk to your doctor
+about what's right for you.)
+</details>
+
+<details>
+<summary>Can I add lab results manually?</summary>
+
+Yes. Open the Goals tab → tap a lab → Add Result. You can enter the value, the
+date drawn, the lab name, and any notes.
+</details>
+
+## Predictions and patterns
+
+<details>
+<summary>How does "tonight's risk" work?</summary>
+
+The app combines your recent triggers (caffeine, alcohol, late meals, missed
+medications, poor sleep), your symptom history for the time of day and day of
+week, and any goals or lab values you've flagged as relevant. It produces a
+risk score with the top contributing factors so you can see *why* — not just
+the number.
+</details>
+
+<details>
+<summary>Why is the prediction "still calibrating"?</summary>
+
+The app needs roughly 14 days of data before predictions are stable. Until
+then, the Insights banner notes that the model is still warming up.
+</details>
+
+<details>
+<summary>What is the contribution heatmap?</summary>
+
+A grid that highlights which logged items most strongly correlate with your
+worst symptom days. It's not a medical diagnosis — it's a visualization of
+your own patterns.
+</details>
+
+## Reminders
+
+<details>
+<summary>Can the app remind me to log?</summary>
+
+Yes. Settings → Reminders lets you schedule daily prompts at custom times.
+</details>
+
+<details>
+<summary>Can it remind me to retest a lab?</summary>
+
+Yes. When you set a Goal, you can attach a follow-up date and the app will
+schedule a local notification.
+</details>
+
+## Other
+
+<details>
+<summary>Does it work with Siri and Shortcuts?</summary>
+
+Yes. You can say "Hey Siri, log RLS symptom" or build Shortcuts that log
+specific triggers, start Live Activities, or open the Today tab.
+</details>
+
+<details>
+<summary>Is there a Live Activity?</summary>
+
+Yes. Start a session from the Today tab and the Live Activity surfaces on the
+Lock Screen and in the Dynamic Island, with one-tap buttons to log severity
+and end the session.
+</details>
+
+<details>
+<summary>How do I send feedback?</summary>
+
+Email **support@rlslog.app** or use the [Contact page]({{ '/contact.html' | relative_url }}).
+</details>
+
+<details>
+<summary>How much does the app cost?</summary>
+
+See the App Store listing for current pricing. There are no in-app subscriptions
+that lock features behind paywalls — you get the whole app.
+</details>

@@ -1,0 +1,50 @@
+title: RLS Log
+description: >-
+  Help center, FAQ, and policies for the RLS Log iOS app.
+url: "https://icweb.github.io"
+baseurl: "/rls-log-help"
+
+# Remove the default Jekyll theme so our custom _layouts/default.html
+# is what GitHub Pages serves. Setting `theme:` to nothing on GH Pages
+# falls back to a stock theme; leaving the key out means "use the
+# layouts in this repo," which is what we want.
+
+# Site nav rendered by _layouts/default.html. Order matters here.
+nav:
+  - title: Help
+    url: /
+  - title: FAQ
+    url: /faq.html
+  - title: Contact
+    url: /contact.html
+  - title: Privacy
+    url: /privacy.html
+  - title: Terms
+    url: /terms.html
+
+# Apply the default layout to every Markdown page so we don't have to
+# repeat `layout: default` in each file's front matter.
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: default
+
+exclude:
+  - README.md
+  - .gitignore
+  - LICENSE
+  - Gemfile
+  - Gemfile.lock
+  - vendor
+
+# Use a recent kramdown / rouge so syntax highlighting works on GH Pages.
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# GitHub Pages publishes from the root of the `main` branch by default.
+# The Settings → Pages page in GitHub still has to enable the build, but
+# nothing about that step requires a config option here.
