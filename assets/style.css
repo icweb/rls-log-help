@@ -92,18 +92,13 @@ html, body {
 }
 
 .brand-mark {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
+  display: inline-block;
   width: 28px;
   height: 28px;
-  border-radius: 8px;
-  background: linear-gradient(135deg, var(--accent), var(--accent-light));
-  color: #fff;
-  font-weight: 700;
-  font-size: 14px;
+  border-radius: 7px;
   align-self: center;
-  box-shadow: 0 1px 4px rgba(94, 43, 206, 0.3);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.18);
+  object-fit: cover;
 }
 
 .brand-text { font-weight: 700; }
@@ -250,13 +245,20 @@ html, body {
   margin: 32px 0;
 }
 
+.card,
+.card:hover,
+.card:focus,
+.card:visited,
+.card:active {
+  text-decoration: none;
+}
+
 .card {
   display: block;
   background: var(--bg-elevated);
   border: 1px solid var(--border);
   border-radius: var(--radius);
   padding: 20px 22px;
-  text-decoration: none;
   color: var(--text);
   transition: transform 0.15s ease, border-color 0.15s ease, box-shadow 0.15s ease;
 }
@@ -265,6 +267,10 @@ html, body {
   transform: translateY(-2px);
   border-color: var(--accent);
   box-shadow: var(--shadow);
+}
+
+.card .card-title,
+.card .card-desc {
   text-decoration: none;
 }
 
@@ -325,14 +331,26 @@ html, body {
   transform: translateY(-50%) rotate(45deg);
 }
 
+.prose details[open] summary {
+  border-bottom: 1px solid var(--border);
+  margin-bottom: 0;
+}
+
 .prose details > *:not(summary) {
-  padding: 0 18px 14px;
-  margin: 0 0 8px;
+  margin: 14px 18px;
+}
+
+.prose details > *:not(summary):first-of-type {
+  margin-top: 14px;
 }
 
 .prose details > *:not(summary):last-child {
-  margin-bottom: 0;
-  padding-bottom: 18px;
+  margin-bottom: 16px;
+}
+
+.prose details ul,
+.prose details ol {
+  padding-left: 24px;
 }
 
 /* ----- Footer ----- */

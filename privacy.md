@@ -70,15 +70,34 @@ You can revoke any Apple Health permission at any time in **Settings → Privacy
 
 ## What we don't do
 
-- **No analytics.** RLS Log does not include Firebase, Mixpanel, Amplitude,
+- **No analytics SDKs.** RLS Log does not include Firebase, Mixpanel, Amplitude,
   Google Analytics, Segment, or any other analytics SDK.
 - **No third-party trackers.** No advertising SDKs. No marketing pixels.
+- **No custom telemetry.** We don't see what you log, what screens you open,
+  or even when you launch the app.
 - **No crash-reporting that includes user data.** The app does not send crash
   reports to us. (Apple's standard, anonymized App Store crash reports may be
   delivered to us through App Store Connect — these contain only stack traces,
   never your logs.)
 - **No selling or sharing.** We don't sell, rent, or share your data with
   anyone, ever.
+
+## A note on Apple's platform logging
+
+Because the app uses Apple's iCloud and CloudKit to sync your data across your
+own devices, Apple's platform-level operational logging applies — the same
+logging that runs for every iCloud-enabled app on your iPhone. Apple is the
+only party with visibility into that, and the contents of your CloudKit private
+database are end-to-end-managed and not visible to us. We never receive a copy
+of your data, your sync activity, or any usage signals from Apple.
+
+## No AI training, no data centers
+
+The predictions and pattern detection in RLS Log run **entirely on your
+iPhone**, against your own log history. There are no remote AI calls, no cloud
+inference, and no training pipeline that ingests your data. The app does not
+run servers in a data center on your behalf — so there's no GPU power and no
+water cooling burning energy to crunch your numbers.
 
 ## Notifications
 
