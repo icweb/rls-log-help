@@ -23,7 +23,7 @@ with it.
 
 When you use RLS Log, the app saves:
 
-- **Symptom logs** — severity, side affected, time, and any notes you add.
+- **Symptom logs** — severity, sides affected, time, and any notes you add.
 - **Triggers** — meals, supplements, medications, caffeine, alcohol, exercise,
   hydration, and other lifestyle entries you log.
 - **Sleep entries** you record manually.

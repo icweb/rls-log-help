@@ -40,7 +40,7 @@ servers.
 
 ## Highlights
 
-- **Symptom logging** with severity, side affected, and free-form notes.
+- **Symptom logging** with severity, sides affected, and free-form notes.
 - **Trigger tracking** for foods, supplements, medications, caffeine, alcohol,
   exercise, and sleep.
 - **Today's risk** — a personalized prediction based on your own history.
