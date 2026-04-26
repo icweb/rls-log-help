@@ -79,6 +79,9 @@ You can revoke any Apple Health permission at any time in **Settings → Privacy
   reports to us. (Apple's standard, anonymized App Store crash reports may be
   delivered to us through App Store Connect — these contain only stack traces,
   never your logs.)
+- **No MetricKit subscription.** The app does not subscribe to Apple's
+  `MXMetricManager`, so it never receives MetricKit diagnostic or metric
+  payloads from your device.
 - **No selling or sharing.** We don't sell, rent, or share your data with
   anyone, ever.
 
