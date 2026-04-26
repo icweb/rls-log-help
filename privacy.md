@@ -4,7 +4,7 @@ subtitle: What stays on your device, what syncs, what we never collect.
 description: Privacy policy for the RLS Log iOS app.
 ---
 
-**Effective date:** April 26, 2026
+**Effective:** April 26, 2026 at 9:50 AM ET
 
 RLS Log is built around a simple promise: **your health data stays yours.** This
 policy explains what the app stores, where it's stored, and what we never do
@@ -163,7 +163,7 @@ children. The App Store rates the app appropriately for medical content.
 
 ## Changes to this policy
 
-If we materially change this policy, we'll update the **Effective date** at the
+If we materially change this policy, we'll update the **Effective** timestamp at the
 top of this page and surface a note in the app. The previous version remains
 in this site's git history.
 

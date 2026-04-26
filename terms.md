@@ -4,7 +4,7 @@ subtitle: The ground rules for using RLS Log.
 description: Terms of use for the RLS Log iOS app.
 ---
 
-**Effective date:** April 26, 2026
+**Effective:** April 26, 2026 at 9:50 AM ET
 
 By installing or using RLS Log (the "app"), you agree to these terms. If you
 don't agree, please don't use the app.
@@ -107,7 +107,7 @@ you have under the laws of your country of residence.
 ## Changes
 
 We may update these terms from time to time. If we make material changes,
-we'll update the **Effective date** at the top of this page. The previous
+we'll update the **Effective** timestamp at the top of this page. The previous
 versions remain in this site's git history. Continued use of the app after
 changes means you accept the updated terms.
 
