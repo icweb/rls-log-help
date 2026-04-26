@@ -190,8 +190,7 @@ schedule a local notification.
 <details markdown="1">
 <summary>Does it work with Siri and Shortcuts?</summary>
 
-Yes. You can say "Hey Siri, log RLS symptom" or build Shortcuts that log
-specific triggers, start Live Activities, or open the Today tab.
+Yes. Say "Hey Siri, log RLS symptom in RLS Log" — the app name has to be in the phrase or Siri won't know which app you mean. Other built-in phrases include "log my mood in RLS Log," "log water in RLS Log," and "log caffeine in RLS Log." You can also build custom Shortcuts that log specific triggers, start Live Activities, or open the Today tab.
 </details>
 
 <details markdown="1">
