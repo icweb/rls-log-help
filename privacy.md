@@ -146,9 +146,10 @@ user-directed local network read, not a data export.
 
 ## Children's privacy
 
-RLS Log is not directed to children under 13 and does not knowingly collect
-data from children. The App Store rates the app appropriately for medical
-content.
+RLS Log is not directed to children under 13 — or the applicable age of
+digital consent in the user's jurisdiction (for example, up to 16 in some EU
+member states under the GDPR) — and does not knowingly collect data from
+children. The App Store rates the app appropriately for medical content.
 
 ## Exporting and deleting your data
 
