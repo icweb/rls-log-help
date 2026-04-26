@@ -180,10 +180,6 @@ your own patterns.
 The predictions and pattern detection run **entirely on your iPhone**, against
 your own log history. There are no remote AI calls, no cloud inference, and
 no training pipeline that ingests your data.
-
-That also means RLS Log doesn't run in a data center on your behalf, so there
-are no servers, no GPUs, and no water-cooled racks burning energy to crunch
-your numbers. The math happens in the app, on the device you already own.
 </details>
 
 ## Reminders
