@@ -99,6 +99,25 @@ inference, and no training pipeline that ingests your data. The app does not
 run servers in a data center on your behalf — so there's no GPU power and no
 water cooling burning energy to crunch your numbers.
 
+## Device identifiers
+
+RLS Log does not collect or use any device identifiers for tracking. Specifically:
+
+- **No IDFA** (Identifier for Advertisers). The app does not request the App
+  Tracking Transparency permission and does not access the IDFA at all.
+- **No IDFV** (Identifier for Vendor). The app does not read or persist the
+  IDFV.
+- **No fingerprinting.** No combinations of device or environment signals are
+  collected to derive a stand-in identifier.
+
+## App Store privacy nutrition label
+
+The app's App Store privacy label is **"Data Not Collected"** — the developer
+does not collect any data from this app. This page describes the same posture
+in plain language. If anything in the App Store label and this policy ever
+appear to disagree, treat the App Store label as the binding declaration and
+let us know at **support@rlslog.app** so we can correct the discrepancy.
+
 ## Notifications
 
 If you enable reminders or follow-up notifications, the app schedules them
@@ -107,9 +126,23 @@ content stays on-device and is not routed through any server.
 
 ## Home Assistant and other integrations
 
-If you choose to connect RLS Log to your own Home Assistant instance or another
-local service, requests go directly from your iPhone to that service over your
-network. We don't proxy or observe those requests.
+RLS Log can optionally connect to your own Home Assistant instance — for
+example, to read sleep-tracker, temperature, or motion-sensor states from your
+home and correlate them with your symptoms.
+
+This integration is **read-only**. RLS Log does **not**:
+
+- Send any of your symptom logs, meals, supplements, medications, lab results,
+  or any other RLS Log data to Home Assistant.
+- Write, modify, or store anything on your Home Assistant server.
+- Share any data you've logged in the app with Home Assistant or any other
+  third-party service.
+
+Requests go directly from your iPhone to your own Home Assistant URL over your
+local network or VPN. We don't proxy them, observe them, or know that they
+happen. The endpoint and credentials you configure stay on your device. The
+same applies to any other local service you point the app at — it's a
+user-directed local network read, not a data export.
 
 ## Children's privacy
 

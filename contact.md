@@ -1,5 +1,5 @@
 ---
-title: Contact &amp; Support
+title: Contact & Support
 subtitle: We read every email — usually the same day.
 description: Get in touch with the RLS Log team for support, bug reports, and feature requests.
 ---
