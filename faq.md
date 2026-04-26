@@ -156,14 +156,19 @@ score with **headwinds** (what's working against you tonight) and **tailwinds**
 (what's working in your favor) so you can see *why* — not just the number.
 
 The forecast is a pattern-matching observation of your own logs, not a
-clinical risk assessment or medical advice.
+clinical risk assessment or medical advice. The Today tab shows a short
+disclaimer to that effect directly below the forecast card itself, so the
+framing travels with the number wherever you see it.
 </details>
 
 <details markdown="1">
 <summary>Why is the prediction "still calibrating"?</summary>
 
 The app needs roughly 14 days of data before predictions are stable. Until
-then, the Insights banner notes that the model is still warming up.
+then, the Insights banner notes that the model is still warming up. The
+"not medical advice" disclaimer beneath the forecast card stays visible
+during the warm-up period as well — the framing of the forecast does not
+change once the model has enough data.
 </details>
 
 <details markdown="1">
