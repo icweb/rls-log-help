@@ -245,11 +245,13 @@ html, body {
   margin: 32px 0;
 }
 
-.card,
-.card:hover,
-.card:focus,
-.card:visited,
-.card:active {
+.prose a.card,
+.prose a.card:hover,
+.prose a.card:focus,
+.prose a.card:visited,
+.prose a.card:active,
+.prose a.card .card-title,
+.prose a.card .card-desc {
   text-decoration: none;
 }
 
@@ -267,11 +269,6 @@ html, body {
   transform: translateY(-2px);
   border-color: var(--accent);
   box-shadow: var(--shadow);
-}
-
-.card .card-title,
-.card .card-desc {
-  text-decoration: none;
 }
 
 .card-title {
