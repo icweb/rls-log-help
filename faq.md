@@ -103,7 +103,18 @@ category individually or revoke access entirely.
 <details markdown="1">
 <summary>Does the app write anything back to Apple Health?</summary>
 
-No. RLS Log is read-only with respect to Apple Health.
+Only when you log a caffeine or alcohol entry yourself with a specific time.
+RLS Log writes that single sample (the milligrams of caffeine, or the number
+of standard alcoholic drinks) back to Apple Health so other Health-aware apps
+see the same entry. The app does **not** write sleep, activity, workouts,
+water, calories, iron, audio exposure, or menstrual data, and it does not
+write to Apple Health Records (clinical lab results) — those categories are
+read-only.
+
+If you'd rather not have RLS Log write at all, you can revoke the write
+permission per-category in **Settings &rarr; Privacy &amp; Security &rarr; Health
+&rarr; RLS Log**. Logging caffeine and alcohol in the app keeps working
+either way.
 </details>
 
 ## Goals and labs

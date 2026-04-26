@@ -47,26 +47,51 @@ When you use RLS Log, the app saves:
 
 ## Apple Health and clinical records
 
-RLS Log can read from Apple Health, but only with your explicit per-category
-permission, and only the categories relevant to RLS:
+RLS Log uses Apple Health with your explicit per-category permission. The
+categories the app actually requests are limited to those relevant to RLS.
+
+**What RLS Log reads from Apple Health:**
 
 - **Sleep analysis** — to correlate sleep quality with symptoms.
-- **Workouts and active energy** — to track exercise patterns.
-- **Step count and resting heart rate** — for daily-context summaries.
+- **Steps, active energy, exercise minutes, and workouts** — to track
+  activity patterns and detect activity near bedtime.
+- **Environmental and headphone audio exposure** — for loud-noise context.
+- **Water, caffeine, alcoholic beverages, calories, and dietary iron** — to
+  auto-fill the nutrition section of the daily log when those values are
+  recorded by other apps you use.
+- **Menstrual flow** — only if you turn on cycle tracking in the app
+  (off by default).
 - **Clinical health records (optional)** — specifically lab results
-  (`HKClinicalTypeIdentifierLabResultRecord`) to import iron studies, ferritin,
-  vitamin D, and similar markers. This is opt-in and off by default.
+  (`HKClinicalTypeIdentifierLabResultRecord`) to import iron studies,
+  ferritin, vitamin D, and similar markers. This is opt-in and off by default.
 
-What we **don't** do with Apple Health data:
+The app does **not** request or read heart rate variability, resting heart
+rate, ovulation tests, mindful sessions, dietary protein/carbs/fat/sugar, or
+any other category not listed above. The companion Apple Watch app reads
+your heart rate only while an overnight tracking session is actively running.
 
-- We don't write your Apple Health data to any server.
+**What RLS Log writes back to Apple Health:**
+
+When you log a caffeine or alcohol entry yourself with a specific time, the
+app writes that one sample (milligrams of caffeine, or the number of
+standard drinks) back to Apple Health so other Health-aware apps see the
+same entry. The app does not write any other category — no sleep, activity,
+workouts, water, calories, iron, audio exposure, or menstrual data, and
+nothing to Apple Health Records (clinical lab results).
+
+**What we don't do with Apple Health data:**
+
+- We don't transmit your Apple Health data to any server we operate (we
+  don't operate any servers).
 - We don't share it with third parties or analytics services.
 - We don't keep a copy outside your device.
 - Imports and reads happen in-process on your iPhone. The data never travels
-  off-device unless you choose to export it yourself.
+  off-device unless you choose to export it yourself. Caffeine and alcohol
+  samples that RLS Log writes go to Apple's HealthKit store on your device,
+  not to anyone else.
 
-You can revoke any Apple Health permission at any time in **Settings → Privacy
-& Security → Health → RLS Log**.
+You can revoke any Apple Health permission — read or write — at any time in
+**Settings → Privacy &amp; Security → Health → RLS Log**.
 
 ## What we don't do
 
