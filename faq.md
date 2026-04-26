@@ -205,7 +205,7 @@ and end the session.
 <details markdown="1">
 <summary>How do I send feedback?</summary>
 
-Email **support@rlslog.app** or use the [Contact page]({{ '/contact.html' | relative_url }}).
+Email **rlslogappsupport@iacwb.com** or use the [Contact page]({{ '/contact.html' | relative_url }}).
 </details>
 
 <details markdown="1">

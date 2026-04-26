@@ -6,7 +6,7 @@ description: Get in touch with the RLS Log team for support, bug reports, and fe
 
 ## Email
 
-The fastest way to reach us is **[support@rlslog.app](mailto:support@rlslog.app)**.
+The fastest way to reach us is **[rlslogappsupport@iacwb.com](mailto:rlslogappsupport@iacwb.com)**.
 
 We're a small team. Real humans read every message.
 
@@ -28,7 +28,7 @@ for us to fix:
 - **Steps to reproduce** — even rough notes help.
 - **Screen recording or screenshot** if you can grab one.
 
-Email it all to **support@rlslog.app**.
+Email it all to **rlslogappsupport@iacwb.com**.
 
 ## Feature requests
 
@@ -40,12 +40,12 @@ than the original idea.
 ## Privacy concerns
 
 For anything related to privacy, data deletion, or the [Privacy Policy]({{ '/privacy.html' | relative_url }}),
-email **support@rlslog.app** with the subject line **Privacy**.
+email **rlslogappsupport@iacwb.com** with the subject line **Privacy**.
 
 ## Press &amp; partnerships
 
 For press inquiries, partnerships, or research collaborations, email
-**support@rlslog.app** with the subject line **Press**.
+**rlslogappsupport@iacwb.com** with the subject line **Press**.
 
 ## Before you write
 

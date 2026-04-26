@@ -116,7 +116,7 @@ The app's App Store privacy label is **"Data Not Collected"** — the developer
 does not collect any data from this app. This page describes the same posture
 in plain language. If anything in the App Store label and this policy ever
 appear to disagree, treat the App Store label as the binding declaration and
-let us know at **support@rlslog.app** so we can correct the discrepancy.
+let us know at **rlslogappsupport@iacwb.com** so we can correct the discrepancy.
 
 ## Notifications
 
@@ -169,4 +169,4 @@ in this site's git history.
 
 ## Contact
 
-Questions about privacy? Email **support@rlslog.app**. We read every message.
+Questions about privacy? Email **rlslogappsupport@iacwb.com**. We read every message.

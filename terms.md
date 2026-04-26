@@ -113,4 +113,4 @@ changes means you accept the updated terms.
 
 ## Contact
 
-Questions about these terms? Email **support@rlslog.app**.
+Questions about these terms? Email **rlslogappsupport@iacwb.com**.
