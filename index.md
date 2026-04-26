@@ -32,7 +32,9 @@ the patterns and triggers that matter most to you.
 RLS Log helps you find what makes your restless legs better or worse. You log
 what you ate, what supplements and medications you took, how you slept, and how
 your legs felt — and the app turns that history into trend lines, contribution
-heatmaps, and personalized risk predictions for the night ahead.
+heatmaps, and a personalized forecast for the night ahead based on patterns
+the app finds in your own logs. These are observations of your own data,
+not clinical recommendations.
 
 It runs entirely on your iPhone. Your data syncs across your own Apple devices
 through iCloud, and nothing is ever sent to our servers — because there are no
@@ -43,11 +45,11 @@ servers.
 - **Symptom logging** with severity, sides affected, and free-form notes.
 - **Trigger tracking** for foods, supplements, medications, caffeine, alcohol,
   exercise, and sleep.
-- **Today's risk** — a personalized prediction based on your own history.
+- **Tonight's forecast** — a personalized prediction based on patterns in your own history.
 - **Patterns & insights** — heatmaps, streaks, and correlations the app finds
   for you.
-- **Goals** — set targets like "iron above 75 ng/mL" and track lab results
-  over time.
+- **Goals** — set lab targets you choose with your clinician and track
+  results over time.
 - **Apple Health** integration for sleep, activity, workouts, and (optionally)
   clinical lab records.
 - **Live Activity & Lock Screen widgets** for one-tap logging.

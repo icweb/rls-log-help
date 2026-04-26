@@ -11,15 +11,17 @@ description: Frequently asked questions about the RLS Log iOS app.
 
 It's a private tracker for restless legs syndrome. You log symptoms, meals,
 supplements, medications, and sleep — and the app surfaces patterns, triggers,
-and a personalized "tonight's risk" prediction based on your own history.
+and a personalized "tonight's forecast" built from patterns in your own
+history. The forecast is an observation of your data, not a clinical
+recommendation.
 </details>
 
 <details markdown="1">
 <summary>How long until I get useful insights?</summary>
 
 The first 7–10 days mostly fill the baseline. After about two weeks of regular
-logging, the contribution heatmap and trend charts get meaningful. Risk
-predictions improve as your dataset grows.
+logging, the contribution heatmap and trend charts get meaningful. Forecasts
+get sharper as your dataset grows.
 </details>
 
 <details markdown="1">
@@ -87,8 +89,8 @@ Settings.
 Clinical records are lab results, medications, immunizations, and conditions
 that Apple Health imports from your healthcare provider. RLS Log can read
 **lab results only**, and only if you opt in — it's used to auto-populate
-goals like "ferritin above 75 ng/mL" so you don't have to type values
-manually.
+the lab targets you've set with your doctor so you don't have to type
+values manually.
 </details>
 
 <details markdown="1">
@@ -109,9 +111,9 @@ No. RLS Log is read-only with respect to Apple Health.
 <details markdown="1">
 <summary>What are Goals?</summary>
 
-Goals are targets you set for yourself — for example, "ferritin above 75
-ng/mL" or "walk 30 minutes a day." The app tracks progress and can remind you
-to retest a lab on a schedule.
+Goals are targets you set for yourself — for example, a ferritin level you
+and your doctor have agreed on, or "walk 30 minutes a day." The app tracks
+progress and can remind you to retest a lab on a schedule.
 </details>
 
 <details markdown="1">
@@ -134,13 +136,16 @@ date drawn, the lab name, and any notes.
 ## Predictions and patterns
 
 <details markdown="1">
-<summary>How does "tonight's risk" work?</summary>
+<summary>How does "tonight's forecast" work?</summary>
 
 The app combines your recent triggers (caffeine, alcohol, late meals, missed
 medications, poor sleep), your symptom history for the time of day and day of
 week, and any goals or lab values you've flagged as relevant. It produces a
-risk score with the top contributing factors so you can see *why* — not just
-the number.
+score with **headwinds** (what's working against you tonight) and **tailwinds**
+(what's working in your favor) so you can see *why* — not just the number.
+
+The forecast is a pattern-matching observation of your own logs, not a
+clinical risk assessment or medical advice.
 </details>
 
 <details markdown="1">
