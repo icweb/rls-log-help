@@ -87,11 +87,11 @@ arising out of your use of the app.
 
 ## Termination
 
-We may terminate or suspend your access to the app at any time, for any
-reason, without notice — for example, if we pull the app from the App Store
-or need to block abuse. The disclaimers, limitations of liability, and any
-provisions intended by their nature to survive termination will continue to
-apply.
+We may terminate your license to use the app at any time, for any reason,
+without notice — for example, if we pull the app from the App Store or need
+to revoke a license for abuse. The disclaimers, limitations of liability, and
+any provisions intended by their nature to survive termination will continue
+to apply.
 
 ## Governing law
 
