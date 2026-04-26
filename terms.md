@@ -51,7 +51,7 @@ for what categories the app reads and the narrow set it writes back.
 
 ## Support
 
-Support for the app is provided by us at **rlslogappsupport@iacwb.com**, not
+Support for the app is provided by us at **[rlslogappsupport@iacwb.com](mailto:rlslogappsupport@iacwb.com)**, not
 by Apple. As stated in the Apple EULA, Apple has no obligation whatsoever to
 furnish maintenance or support services for the app.
 
@@ -65,5 +65,5 @@ EULA itself is updated by Apple, not by us.
 
 ## Contact
 
-Questions about these clarifications? Email **rlslogappsupport@iacwb.com**.
+Questions about these clarifications? Email **[rlslogappsupport@iacwb.com](mailto:rlslogappsupport@iacwb.com)**.
 Questions about the Apple EULA itself should be directed through Apple.

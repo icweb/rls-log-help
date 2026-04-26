@@ -1,6 +1,6 @@
 ---
 title: Contact & Support
-subtitle: We read every email — usually the same day.
+subtitle: We read every email — replies typically arrive within 7–10 business days.
 description: Get in touch with the RLS Log team for support, bug reports, and feature requests.
 ---
 
@@ -12,8 +12,8 @@ We're a small team. Real humans read every message.
 
 ## Response time
 
-Most emails get a reply within **one business day**. Bug reports that include
-a screen recording or a clear list of steps get answered fastest.
+Most emails get a reply within **7–10 business days**. Bug reports that
+include a screen recording or a clear list of steps get answered fastest.
 
 ## Bug reports
 
@@ -28,7 +28,7 @@ for us to fix:
 - **Steps to reproduce** — even rough notes help.
 - **Screen recording or screenshot** if you can grab one.
 
-Email it all to **rlslogappsupport@iacwb.com**.
+Email it all to **[rlslogappsupport@iacwb.com](mailto:rlslogappsupport@iacwb.com)**.
 
 ## Feature requests
 
@@ -40,12 +40,12 @@ than the original idea.
 ## Privacy concerns
 
 For anything related to privacy, data deletion, or the [Privacy Policy]({{ '/privacy.html' | relative_url }}),
-email **rlslogappsupport@iacwb.com** with the subject line **Privacy**.
+email **[rlslogappsupport@iacwb.com](mailto:rlslogappsupport@iacwb.com?subject=Privacy)** with the subject line **Privacy**.
 
 ## Press &amp; partnerships
 
 For press inquiries, partnerships, or research collaborations, email
-**rlslogappsupport@iacwb.com** with the subject line **Press**.
+**[rlslogappsupport@iacwb.com](mailto:rlslogappsupport@iacwb.com?subject=Press)** with the subject line **Press**.
 
 ## Before you write
 

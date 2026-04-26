@@ -244,7 +244,7 @@ you already own.
 <details markdown="1">
 <summary>How do I send feedback?</summary>
 
-Email **rlslogappsupport@iacwb.com** or use the [Contact page]({{ '/contact.html' | relative_url }}).
+Email **[rlslogappsupport@iacwb.com](mailto:rlslogappsupport@iacwb.com)** or use the [Contact page]({{ '/contact.html' | relative_url }}).
 </details>
 
 <details markdown="1">
