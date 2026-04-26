@@ -219,6 +219,29 @@ and end the session.
 </details>
 
 <details markdown="1">
+<summary>What is the Home Assistant integration?</summary>
+
+RLS Log can optionally connect to your own self-hosted [Home Assistant](https://www.home-assistant.io/)
+server to read sensor states — for example, bedroom temperature, humidity, or
+motion-sensor activity overnight — and correlate them with your sleep and
+symptoms. It is **off by default** and the app is fully usable without ever
+turning it on; you only need to touch this if you already run Home Assistant
+on your own network and want that context inside RLS Log.
+
+If you enable it, you provide your own Home Assistant URL and a long-lived
+access token. Your iPhone makes HTTPS requests directly to your Home Assistant
+server over your local network or VPN. RLS Log is **strictly read-only** with
+respect to Home Assistant — it never writes, never modifies your server, and
+never sends any of your symptom logs, meals, supplements, medications, lab
+results, or other RLS Log data to Home Assistant or anywhere else. The URL
+and token you configure stay on your device.
+
+The toggle lives in **Settings &rarr; Integrations &rarr; Home Assistant**.
+There is no demo server — by design, this is a connection to infrastructure
+you already own.
+</details>
+
+<details markdown="1">
 <summary>How do I send feedback?</summary>
 
 Email **rlslogappsupport@iacwb.com** or use the [Contact page]({{ '/contact.html' | relative_url }}).

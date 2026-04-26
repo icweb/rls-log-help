@@ -55,6 +55,11 @@ servers.
 - **Live Activity & Lock Screen widgets** for one-tap logging.
 - **Siri & Shortcuts** support.
 - **iCloud sync** across your devices.
+- **Optional Home Assistant integration** — read-only, off by default. If you
+  self-host Home Assistant, RLS Log can read sensor states like bedroom
+  temperature from your local server to correlate with your sleep and
+  symptoms. The app never writes to Home Assistant and never sends your
+  RLS Log data there.
 
 ## Need something else?
 
